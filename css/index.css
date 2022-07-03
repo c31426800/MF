@@ -1,0 +1,31 @@
+.df {
+    display: flex;
+}
+
+.df-row {
+    flex-direction: row;
+}
+
+.df-col {
+    flex-direction: column;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.js {
+    justify-content: flex-start;
+}
+
+.jd {
+    justify-content: flex-end;
+}
+
+.jauto {
+    justify-content: space-around;
+}
+
+.align-c {
+    align-items: center;
+}

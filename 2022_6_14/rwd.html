@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .box
+    {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        margin-bottom: 10px;
+        margin: 10px auto;
+    }
+    @media(max-width:1024px )
+     {body{
+        background-color:rgb(126, 126, 177);
+     }
+     .red{
+        background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yllow{
+    background-color: yellow;
+}
+        
+    }
+    @media(max-width:765px )
+     {body{
+        background-color:rgb(192, 168, 31);
+
+     }
+     .red{
+        background-color: green;
+        width: 300px;
+        height: 300px;
+     }
+     .green{
+        background-color: yellow;
+        width: 300px;
+        height: 300px;
+     }
+    .blue{
+        background-color: aqua;
+        width: 300px;
+        height: 300px;
+    }
+    .yllow{
+        background-color: blue;
+    }
+    }
+</style>
+<body>
+    <div class="box red"></div>
+    <div  class="box green"></div>
+    <div  class="box blue"></div>
+    <div  class="box  yllow " ></div>
+</body>
+</html>

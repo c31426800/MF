@@ -1,0 +1,381 @@
+
+    *
+    {
+        box-sizing: border-box;
+    }
+    body{
+        margin:0 ;
+        padding: 0;
+    }
+#container{
+    width: 100%;
+    height: 100vh;
+}
+#container .nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(163, 172, 144);
+    
+}
+#container .nav .logo-search{
+    width: 360px;
+    height: 50px;
+    float: left;
+    border:5px black solid;
+}
+
+
+#container .nav .link{
+    width: 500px;
+    height: 50px;
+    float: left;
+    margin-left:20% ;
+    border:5px black solid;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+#container .nav .function{
+    width: 400px;
+    height: 50px;
+    float: right;
+    border:5px black solid;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+#container .nav .logo-search .logo{
+    width: 50px;
+    height:50px ;
+    color: brown;
+    float: left;
+    cursor: pointer;
+}
+#container .nav .logo-search .logo
+:hover{
+    background-color: aquamarine;
+    border-radius:10px;
+}
+
+#container .nav .logo-search .search{
+    width: 300px;
+    height: 50px;
+    float: right;
+    text-align:center;
+    padding-top: 10px;
+}
+
+
+
+#container .nav .link .icon{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left:10px;
+    
+}
+#container .nav .link .icon:hover{
+    background-color: aquamarine;
+    border-radius:10px;
+}
+
+
+
+    
+
+.search{
+    border:1px black solid;
+
+}
+.search input{border-radius:5px;}
+.friend{
+     border:1px rgb(122, 48, 48) solid;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right:24px;
+
+    margin-left:24px;
+    
+}
+.friend:hover{
+    background-color: rgba(0, 255, 255, 0.596);
+}
+.home{
+    border:1px rgb(122, 48, 48) solid;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right:24px;
+    margin-left:24px;   
+}
+.home:hover{background-color:rgba(0, 255, 255, 0.651);}
+.video{
+    border:1px rgb(122, 48, 48) solid;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right:24px;
+    margin-left:24px;
+}
+.video:hover{background-color: rgba(0, 255, 255, 0.603);}
+.shop{
+    border:1px rgb(122, 48, 48) solid;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right:24px;
+    margin-left:24px;
+}
+.shop:hover{background-color: rgba(0, 255, 255, 0.596);}
+.club{
+    border:1px rgb(122, 48, 48) solid;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right:24px;
+    margin-left:24px;
+}
+.club:hover{background-color: rgba(0, 255, 255, 0.678);}
+ .user{
+    
+    height: 50px;
+    width: 50px;
+    float:left;
+    
+ }
+.user-logo{
+    
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+ .name{
+    
+    height: 50px;
+    width: 50px;
+    float:left;
+    margin-left: 151px ;
+    margin-top :-50px;
+ }
+ 
+.messenger{ 
+    height: 50px;
+    width: 50px;
+    float:left;
+    margin-left: 236px ;
+    margin-top :-50px;}
+
+    .z ,.cc{
+        height: 600px;
+        list-style: none;
+    }   
+
+
+    #container .nav .function .box{
+        width: calc(400px / 5 )-2px;
+        height: 50px;
+        float: left;
+    }
+    .float{
+        float: left;
+        margin: 20px;
+        
+    }
+   .user{
+    float: left;
+   }     
+   .notice{
+    float:right;
+    margin-top: 5px;
+    margin-right: 29px;
+    
+    
+}  
+
+   .member{
+    float:right;
+    margin: 5px;
+    
+}
+.messenger{
+    
+    left: 197px; ;
+    margin-top: 5px;
+}
+.function-box{
+    margin-left: 46px;
+    margin-top: 5px;
+   
+}
+.user{
+    float: left;
+    margin-top: 5px;
+    
+}
+.name{
+    margin-left: 38px; 
+    margin-top: -41px;
+    color: rgb(137, 17, 216);
+}
+.logo i{
+    color: rgb(46, 112, 187);
+    font-size: 42px;
+}
+.content{
+    border: 1px rgb(207, 18, 43) solid;
+    width:100% ;
+    height:100% ;
+}
+.user-face{
+    
+    width: 80%;
+    
+    margin-left: 187px;
+    position: relative;
+    
+    
+}
+.business-card{
+    border: 1px rgb(17, 145, 196) solid;
+    width: 80%;
+    height: 200px;
+    margin-left: 187px;
+}
+.banner img{
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.personal-information{
+    border: 1px red solid;
+    
+    height: 120px;
+    padding-left: 200px;
+    padding-top:30px
+    }
+
+.mug-shot{
+     position: relative;
+     position: absolute;
+     bottom: -125px;;
+     left: 20px;
+}
+.mug-shot img{
+    border-radius:80px;
+    border: 1px blue solid;
+
+}
+.nane{
+    color: rgb(201, 73, 73);
+    float: left;
+    font-size: 20px;
+}
+.hagtag{
+    float: left;
+   clear: both;
+}
+.popularity{
+    float:left;
+}
+.classification{
+    float: left;
+}
+.buttn{
+    float:right;
+    margin-right: 50px;
+    background-color: #0d6efd;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+    border-radius:10px
+    
+}
+.asd{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+}
+.First{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.about{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.photo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.comment{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.more{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.conne{
+    border: 1px blue solid;
+    width: 300px;
+    height: 80px;
+    float:right;
+    padding: 5px;
+}
+.awesome{
+    position: absolute;
+    float: left;
+    top:50%;
+    left:50% ;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.search2{
+    float:left;
+    margin-left: 130px;
+    margin-top: -42px;
+    background-color: #d3d3d37c;
+    cursor: pointer;
+    
+}
+.link2{
+    float:right;
+    margin-top: -40px;
+    margin-right: 60px; 
+     background-color: #D3D3D3;
+     cursor: pointer;
+}
+.conne2{
+    background-color: #E7F3FF;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    text-align:center;
+}
+.vv{
+    width: 100%;
+}
+.awesome i{
+    text-align: center;
+}
+
+    

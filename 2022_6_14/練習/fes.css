@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 54px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+
+    background-color: rgb(206, 236, 35);
+    height: 54px;
+}
+
+.nav-left {
+
+    width: 31vw;
+    margin-left: 7vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-right {
+    margin-right: 6.5vw;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+}
+
+.mid-1 {
+    display: flex;
+    justify-content: center
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+li {
+    margin-left: 25px;
+    list-style: none;
+    display: flex;
+
+    align-items: center;
+}
+
+img {
+    width: 120px;
+    height: 25px;
+}
+
+.search {
+    margin-right: 10px;
+}
+.img-wrap{
+    height: 600px;
+}
+.img-wrap .img-content{
+    position: relative;
+    background-color: aqua;
+    width: 310px;
+    height: 300px;
+    top: -450px;
+    left: 10%;
+}
+.img-wrap .img-content .img-content-detail{
+    
+    margin-bottom: 30px;
+}
+
+.logo-photo {
+    width: 30px;
+    ;
+    height: 30px;
+}
+.text-1{width: 72px;height: 28px;background-color: #ffb900;}
+.img-1 {
+    background-image: url(../../img/Highlight-Surface-Laptop-Go-2-01-M01_VP5-1920x600.jpg);
+    width: 100vw;
+    height: 600px;
+    position: relative;
+}
+.text-wrap{background-color: yellow;width: 72px;height: 28px;}
+img{width: 40px;height: 40px;}
+.y-1 {
+    background-color: rgb(172, 169, 15);
+    width: 72px;
+    height: 28px;
+    position: absolute;
+    top: 149px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.cc{background-color: blueviolet;width: 200px;height: 150px;}
+.text-365{margin-top: 15px;}
+.word-2 {
+    background-color: aqua;
+    width: 520px;
+    height: 100px;
+    padding-top: 206px;
+    padding-left: 195px;
+    font-size: 30px;
+}
+
+.word-3 {
+    margin-top: 60px;
+    margin-left: 194px;
+}
+
+
+.white {
+    width: 100vw;
+    height: 80px;
+    background-color: aqua;
+}
+
+.mid {
+    width: 100vw;
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+
+
+    background-color: rgb(180, 142, 59);
+    width: 230px;
+    height: 230px;
+
+
+
+}
+
+.yellow-top {
+    background-color: black;
+    width: 920px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -115px;
+    margin-right: 90px;
+}
